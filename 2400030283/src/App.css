@@ -1,0 +1,40 @@
+/* Center the main container */
+.App {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+/* Style for the filter buttons */
+.filter-buttons button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+/* Style for the currently active button */
+.filter-buttons .active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+/* Add some space above the product list */
+.product-list {
+  margin-top: 20px;
+}
+
+/* Style for each individual product item */
+.product-item {
+  border: 1px solid #eee;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.product-item h3 {
+  margin-top: 0;
+}
